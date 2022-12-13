@@ -13,8 +13,6 @@ public interface UserDao {
 
     public void editUser(User user);
 
-    public void deleteUser(long id); //by id
-
-    public void deleteUser(User user); //by object
+    public void deleteUser(long id); //by object
 
 }
