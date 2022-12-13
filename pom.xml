@@ -81,6 +81,7 @@
             <warSourceDirectory>src/main/webapp</warSourceDirectory>
             <warName>spring_mvc</warName>
             <failOnMissingWebXml>false</failOnMissingWebXml>
+            <resourceEncoding>UTF-8</resourceEncoding>
           </configuration>
         </plugin>
       </plugins>

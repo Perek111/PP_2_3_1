@@ -36,7 +36,7 @@ public class HibernateConfig {
                 new LocalContainerEntityManagerFactoryBean();
         factoryBean.setJpaVendorAdapter(getJpaVendorAdapter());
         factoryBean.setDataSource(getDataSource());
-        factoryBean.setPersistenceUnitName("myJpaPersistenceUnit");
+        factoryBean.setPersistenceUnitName("MyСreation");
         factoryBean.setPackagesToScan("web");
         factoryBean.setJpaProperties(getHibernateProperties());
         return factoryBean;
